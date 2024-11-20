@@ -2,8 +2,8 @@ import React, { useContext, useState } from "react";
 import { UserContext } from "../context/UserProvider";
 
 const Register = () => {
-  const [email, setEmail] = useState("salome.mosquera@uao.edu.co");
-  const [password, setPassword] = useState("12345");
+  const [email, setEmail] = useState("carlosandres020@uao.edu.co");
+  const [password, setPassword] = useState("1234567");
   const { registerUser } = useContext(UserContext);
 
   const handleSubmit = async (e) => {
